@@ -1,0 +1,92 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+#widget-calendar {
+  margin: 50px auto;
+  display: flex;
+  flex-wrap: wrap;
+  width: 80%;
+  text-align: center;
+}
+
+.title {
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+  border-bottom: solid 1px #cccccc;
+  color: grey;
+}
+
+.main {
+  margin: 0;
+  font-weight: bold;
+}
+
+.availabilities, .title {
+  flex: 1 0 0;
+}
+
+.slot {
+  color: white;
+  padding: 10px 0;
+  background: #00B8F2;
+  width: 50%;
+  border-radius: 5px;
+  margin: 10px auto;
+}
+
+.slot:hover {
+  background: #03aade;
+  cursor: pointer;
+}
+
+.empty {
+  background: white;
+}
+
+.empty:hover {
+  background: none;
+  cursor: initial;
+}
+
+.empty-slot {
+  width: 20px;
+  height: 2px;
+  background-color: #cccccc;
+  margin: 10px auto;
+}
+
+.down {
+  flex: 0 0 calc(100% - 112px);
+  margin: 10px auto;
+  padding-top: 10px;
+  border-top: solid 1px #cccccc;
+}
+
+.down a {
+  color: #00B8F2;
+}
+
+.down a:hover {
+  color: #03aade;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.arrow-left {
+  cursor: pointer;
+  fill: #00B8F2;
+  height: 26px;
+  width: 46px;
+  margin-right: 10px;
+}
+
+.arrow-right {
+  cursor: pointer;
+  fill: #00B8F2;
+  height: 26px;
+  width: 46px;
+  margin-left: 10px;
+}
